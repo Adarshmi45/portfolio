@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Meow+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Merriweather&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #9c88ff;
+}
+.sidebar{
+    position: absolute;
+    background-color: #dcdde1;
+    font-family: 'Lora', serif;
+    height: 200vh;
+    transition: transform 0.3s ease-in;
+    
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    background-color: #9c88ff;
+    width: 100vw;
+}
+.cont{
+    display: flex;
+}
+
+.info{
+    /* background-color: #c7ecee; */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.myinfo{
+    font-size: 16px;
+    display: flex;
+    font-family: 'Merriweather', serif;
+    justify-content: center;
+    flex-direction:column ;
+}
+.hello{
+    font-size: 3em;
+    font-weight: lighter;
+
+}
+.name{
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+}
+.about{
+    font-size: 2.5em;
+}
+
+.abt{
+    font-size: 2em;
+    margin-top: 23px;
+    font-style: italic;
+}
+.buttons{
+    margin-top: 40px;
+    font-size: 16px;
+}
+.btn{
+    padding: 9px 14px;
+    margin-top: 3px;
+    border-radius: 22px;
+    color: white;
+    background-color:#341f97;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 0 3px;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    background-color: burlywood;
+    color: darkblue;
+}
+
+.btn-sm{
+    font-size: 14px;
+    padding: 10px 19px;
+    margin: 12px 0;
+}
+
+.mypic img{
+
+    height: 55vh;
+
+}
+
+ .contactform{
+    padding: 0 34px;
+    font-family: 'Merriweather', serif;
+    margin-left: 90px;
+     
+ }
+ 
+ .contactform h1{
+    font-family: 'Lora', serif;
+    /* padding: 12px 0; */
+ }
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    /* width: 26vw; */
+    border-radius: 3px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+.contactform form{
+    margin: 0 40px;
+}
+
+#emailHelp{
+    font-size: 11px;
+    color: rgb(1, 1, 43);
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+h1{
+    font-family: 'Lora', serif;
+    margin: 23px; 
+}
+p{
+    font-family: 'Merriweather', serif;  
+}
+.intromy{
+    margin: 10px 90px;
+}
+.intromy h2{
+    font-family: 'Lora', serif;
+    margin: 12px;
+}
+
+.intromy p{
+    font-family: 'Merriweather', serif;  
+    margin: 12px;
+}
+.skillcont{
+    padding: 12px;
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+    font-family: 'Lora', serif;
+    font-weight: 900;
+}
+.skills{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+    margin-left: 10px;
+}
+.t100{
+    width: 265px;
+    background-color: red;
+}
+.t50{
+    width:150px;
+    background-color:yellow ;
+}
+.t25{
+    width: 75px;
+    background-color: blue;
+}
+.sidebarGo{
+    transform: translate(-443px, 0px);
+        position: absolute;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+    margin-top: 10PX;
+    margin-left: 10px;
+}
+.cross{
+    margin-left: 184px;
+    margin-top: 10px;
+}
+
+@media (max-width:800px){
+    /* *{
+        background-color: chocolate;
+    }
+    .sidebar{
+        transform: translate(-443px, 0px);
+        position: absolute;
+    } */
+    .myinfo{
+        font-size: 10px;
+    }
+    .mypic{
+        display: none;
+    }
+    .intromy, .contactform{
+        margin: 8px;
+    }
+    .buttons{
+        font-size: 6px;
+    }
+
+}
