@@ -18,7 +18,7 @@
     	$("#loader").fadeOut("fast", function(){
 
         // will fade out the whole DIV that covers the website.
-        $("#preloader").delay(300).fadeOut("fast");
+        $("#preloader").delay(200).fadeOut("fast");
 
       });       
 
